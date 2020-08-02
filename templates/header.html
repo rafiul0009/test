@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>
+        {% if title=="About" %}
+        About Developer | Today's Overcast
+        {% elif title=="Contact" %}
+        Contact Page | Today's Overcast
+        {% else %}
+        Today's Overcast
+        {% endif %}
+    </title>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+
+</head>
+<body>
+    <button onclick="window.location.href='/';">Home</button>
+    <button onclick="window.location.href='/about';">About</button>
+    <button onclick="window.location.href='/contact';">Contact</button>
